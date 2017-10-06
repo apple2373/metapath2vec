@@ -1,0 +1,14 @@
+i	pronoun
+love	verb
+yi	name
+li	name
+need	verb
+to	preposition
+learn	verb
+chinese	name
+is	verb
+the	article　
+cutest		adjective
+girl		noun
+in	preposition
+world	noun
