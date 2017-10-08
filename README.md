@@ -18,5 +18,18 @@ python main.py --walks ./data/test_data/random_walks.txt --types ./data/test_dat
 tensorboard --logdir=./log/
 ```
 
+#how to use 
+```
+import numpy as np
+import json
+index2nodeid = json.load(open("./log/index2nodeid.json"))
+index2nodeid = {int(k):v for k,v in index2nodeid.items()}
+nodeid2index = {v:int(k) for k,v in index2nodeid.items()}
+node_embeddings = np.load("./log/node_embeddings.npz")['arr_0']
+
+#node embeddings of "yi"
+node_embeddings[nodeid2index["yi"]]
+```
+
 ##To do list
 
