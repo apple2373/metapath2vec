@@ -10,7 +10,7 @@ I recommend you to install [Anaconda](https://www.continuum.io/downloads) and th
 - [tneosorflow](http://tensorflow.org)
 - and some other libraries...
 
-## How to use.
+## How to train.
 learn embeddings using the random walks
 ```
 python main.py --walks ./data/test_data/random_walks.txt --types ./data/test_data/node_type_mapings.txt --log ./log --negative-samples 5 --window 1 --epochs 100 --care-type 0
@@ -18,7 +18,7 @@ python main.py --walks ./data/test_data/random_walks.txt --types ./data/test_dat
 tensorboard --logdir=./log/
 ```
 
-#how to use 
+## how to load the learned embeddings 
 ```
 import numpy as np
 import json
