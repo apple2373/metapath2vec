@@ -13,7 +13,8 @@ I recommend you to install [Anaconda](https://www.continuum.io/downloads) and th
 ## How to use.
 learn embeddings using the random walks
 ```
-python main.py --walks ./data/test_data/random_walks.txt --types ./data/test_data/node_type_mapings.txt --batch 2 --log ./log --negative-samples 5 --window 1 --epochs 100
+python main.py --walks ./data/test_data/random_walks.txt --types ./data/test_data/node_type_mapings.txt --log ./log --negative-samples 5 --window 1 --epochs 100 --care-type 0
+python main.py --walks ./data/test_data/random_walks.txt --types ./data/test_data/node_type_mapings.txt --log ./log --negative-samples 1 --window 1 --epochs 100 --care-type 1
 tensorboard --logdir=./log/
 ```
 
