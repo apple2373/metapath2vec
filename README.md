@@ -31,5 +31,5 @@ node_embeddings = np.load("./log/node_embeddings.npz")['arr_0']
 node_embeddings[nodeid2index["yi"]]
 ```
 
-##To do list
-
+## To do list
+- Make the batch size more than 1.
