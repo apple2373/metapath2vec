@@ -1,5 +1,5 @@
 # metapath2vec  with tensorflow
-This repo contains ad hoc implementation of metapath2vec using tensorflow. I call it ad hoc because the codes are not so clean and efficient. However, it is applicable for large networks. I tested on a network with ----- nodes. 
+This repo contains an implementation of metapath2vec using tensorflow. I haven't tested on a big network yet, so be careful when you use it....
   
 main reference appeared at KDD 2017: [metapath2vec: ](https://dl.acm.org/citation.cfm?id=3098036)
   
