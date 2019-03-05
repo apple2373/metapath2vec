@@ -3,7 +3,7 @@ This repo contains an implementation of metapath2vec using tensorflow.
   
 main reference appeared at KDD 2017: [metapath2vec: ](https://dl.acm.org/citation.cfm?id=3098036)
  
-## Please the author's implementation for formal experiments!! 
+## Please use the author's implementation for formal experiments!! 
 I just wrote this for myself in order to learn how the algorithm works. I haven't tested on a big network or even checked if I can reproduce the reported performance, so be careful when you use it.... (I mean there might be a bug :) ). The author 's implementation is available here: https://ericdongyx.github.io/metapath2vec/m2v.html. 
   
 ## Requirements
